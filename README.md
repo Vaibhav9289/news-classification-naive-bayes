@@ -1,1 +1,12 @@
-# news-classification-naive-bayes
+# Text Classification of News Articles using Naive Bayes
+- Data Size: 20,000 news articles.
+- File Handling: Used os library to read files.
+- Data Storage: Stored articles in a DataFrame using pandas.
+- Text Conversion: Converted text to count vectors.
+- Model: Applied Multinomial Naive Bayes classifier from sklearn.
+- Main Topics: 7 main topics.
+- Subtopics: 20 subtopics.
+- Accuracy:
+  - 78% for main topics and subtopics.
+  - 87% for only main topics.
+- Visualization: Predicted test values visualized with a confusion matrix.
